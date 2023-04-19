@@ -23,3 +23,7 @@ git commit -m "Name | Datum | Fragen"
 ``` 
 git push
 ```
+
+## Dokumentation 
+
+https://docs.google.com/document/d/1p3Q3aKbCASJBXoxaFSw-HD1da6U6DzAdtYWw6cqTEWY/edit#
