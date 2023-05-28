@@ -1,6 +1,35 @@
 #include <stdio.h>
 #include <math.h>
 
+//Eingabe wie 2. klasse, dannch rechner funktion mit feld und anzahl ergebnis als zeiger zurück -> return als fehlerbehandlung 
+
+
+int eingabeZahl( int ug, int og, int *zahl) {
+    int ok = 0;
+    char s[100];
+
+    do{
+        if(ok)
+          printf(" Bitte geben sie eine zahl zwischen %d und %d ein", ug, og);
+        
+        printf(" Bitte geben sie eine zahl zwischen %d und %d ein", ug, og);
+        fgets(s, sizeof(s), stdin);
+        fflush(stdin);
+
+        if(s[0] == '<') 
+            return 0;
+        
+
+        ok = sscanf(s, "%d", zahl);
+        ok &=(*zahl >= ug) && (*zahl <= og);
+
+    }while(!ok);
+    return 1;
+}
+
+
+
+
 int main()
 {
     float data[100];

@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+//in eine Funktion auslagern Startwert wird übergeben und nächste primzahl als retrun zurückgegeben
+
 int main() {
    int  i, j;
    int start = 0; 

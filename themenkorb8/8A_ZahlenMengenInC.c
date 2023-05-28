@@ -10,7 +10,7 @@ int main() {
     // Hexadezimalausgabe
     printf("Hexadezimal: %X\n", zahl);
 
-    // Binärausgabe
+    // Binärausgabe  --> als schleife realisieren 
 	printf("Binär: %b\n", zahl);
 	
     // Stringausgabe

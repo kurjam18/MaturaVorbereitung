@@ -1,4 +1,6 @@
 #include <stdio.h>
+//Null durch \0 oder 0 ersetzten 
+
 
 int main() {
     char input[] = {'H','A', 'L', 'L', 'O', '0'};
