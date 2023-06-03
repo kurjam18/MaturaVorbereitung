@@ -17,7 +17,7 @@ int eingabeZahl(int ug, int og, double *zahl) {
     
     return 0;
 }
-
+/*
 int main() {
     double werte[MAX_ANZAHL];
     int anzahl;
@@ -59,3 +59,4 @@ int main() {
     
     return 0;
 }
+*/
